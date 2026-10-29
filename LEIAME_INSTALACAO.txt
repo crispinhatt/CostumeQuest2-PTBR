@@ -1,0 +1,31 @@
+COSTUME QUEST 2 — TRADUÇÃO PT-BR v1.3
+======================================
+Traduzido por: Cristiano (crispinhatt)
+Strings: 4.286 / 4.287 (99.9%)
+Fix v1.3: substituição in-place (sem append, sem alterar estrutura do arquivo)
+
+INSTALAÇÃO
+----------
+1. Localize a pasta do jogo:
+   ...\Steam\steamapps\common\CostumeQuest2\Win\Packs\
+
+2. Faça BACKUP dos originais:
+   RgB_Stuff.~h  →  RgB_Stuff.~h.bak
+   RgB_Stuff.~p  →  RgB_Stuff.~p.bak
+
+3. Copie os arquivos de Win/Packs/ desta pasta para lá.
+
+4. Inicie o jogo — textos em Português Brasileiro!
+
+DESINSTALAÇÃO
+-------------
+Restaure os .bak ou use "Verificar Integridade" no Steam.
+
+NOTAS TÉCNICAS
+--------------
+- Formato: dfpf v5 | Encoding: UTF-8
+- PT-BR escrito no slot cq2_eses (espaço suficiente)
+- Records cq2_enus E cq2_eses apontam para o mesmo bloco PT-BR
+- cqpc_usenglish: substituição direta no offset original
+- Arquivo .p com tamanho IDÊNTICO ao original (57,147,392 bytes)
+- JUNK_DATA_OFFSET não alterado
